@@ -21,6 +21,7 @@ def now_serving()
     puts "The line is currently empty."
   else 
     puts "Currently serving #{deli[0]}."
+    deli.shift
   end
 end
 
